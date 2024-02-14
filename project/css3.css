@@ -1,0 +1,96 @@
+
+.h1el{
+    text-align: center;
+    position: relative;
+    left: 320px;
+    font-size:25px;
+    color: rgb(0, 0, 0);
+    top: 70px;
+    animation-name: Idle;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-duration: alternate-reverse;
+    animation-timing-function: linear;
+}
+.h4el{
+    text-align: center;
+    position: relative;
+    left: 270px;
+    font-size: 16px;
+    top: 90px;
+    animation-name: Idle1;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-duration: alternate-reverse;
+    animation-timing-function: linear;
+}
+@keyframes Idle{
+    0%{
+        top:70px;
+    }
+    10%{
+        top:69px;
+    }
+    20%{
+        top:68px;
+    }
+    30%{
+        top:67px;
+    }
+    40%{
+        top:66px;
+    }
+    50%{
+        top:67px;
+    }
+    60%{
+        top:68px;
+    }
+    70%{
+        top:69px;
+    }
+    80%{
+        top:70px;
+    }
+    90%{
+        top:70px;
+    }
+   100%{
+        top:70px;
+    }
+}
+@keyframes Idle1{
+    0%{
+        top:90px;
+    }
+    10%{
+        top:89px;
+    }
+    20%{
+        top:88px;
+    }
+    30%{
+        top:87px;
+    }
+    40%{
+        top:86px;
+    }
+    50%{
+        top:87px;
+    }
+    60%{
+        top:88px;
+    }
+    70%{
+        top:89px;
+    }
+    80%{
+        top:90px;
+    }
+    90%{
+        top:90px;
+    }
+   100%{
+        top:90px;
+    }
+}
